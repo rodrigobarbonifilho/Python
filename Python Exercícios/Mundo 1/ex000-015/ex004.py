@@ -1,0 +1,11 @@
+# coding=utf-8
+alguma_coisa = input('Digite alguma coisa: ')
+print()
+print('\033[1;31mO tipo primitivo desse valor é:{}'.format(type(alguma_coisa)))
+print('É Alfabético: {}'.format(alguma_coisa.isalpha()))
+print('É Numérico: {}'.format(alguma_coisa.isnumeric()))
+print('É alfanumérico: {}'.format(alguma_coisa.isalnum()))
+print('Só tem espaços: {}'.format(alguma_coisa.isspace()))
+print('Está em maisculo: {}'.format(alguma_coisa.isupper()))
+print('Está em minusculo: {}'.format(alguma_coisa.islower()))
+print('Está Capitalizada: {}\033[m'.format(alguma_coisa.istitle()))

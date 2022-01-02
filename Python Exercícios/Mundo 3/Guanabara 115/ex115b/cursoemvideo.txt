@@ -1,0 +1,4 @@
+Ana;34
+Rodrigo;32
+Maria;85
+Jose;42
